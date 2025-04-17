@@ -1,0 +1,25 @@
+body, html, #root {
+  height: 100%; /* Full viewport height for root */
+  margin: 0; /* Remove default margin */
+  overflow: hidden; 
+  /* Prevent global scrolling */
+}
+
+#background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.cube {
+  position: absolute;
+  /* Add cube-specific styles here */
+}
+
+.parcel {
+  position: absolute;
+  /* Add parcel-specific styles here */
+}
